@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class Exercicio07 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    [SerializeField] int numeroFaces = 10;
+    
     void Start()
     {
-        
+        int resultado = Random.Range(1, numeroFaces);
+        print(resultado);
     }
 
     // Update is called once per frame
