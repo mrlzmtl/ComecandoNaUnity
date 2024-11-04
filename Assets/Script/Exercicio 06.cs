@@ -11,9 +11,13 @@ public class Exercicio06 : MonoBehaviour
         {
             print("Guerreiro escolhido");
         }
-        else
+        else if (playerGuerreiro == false && playerMago == true)
         {
             print("Mago Escolhido");
+        }
+        else
+        {
+            print("Escolha uma das classes");
         }
     }
 
