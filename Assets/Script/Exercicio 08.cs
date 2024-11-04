@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class Exercicio08 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    [SerializeField] int hora = 20;
+    int segundos = 1;
+    int dias = 1;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        
+        segundos += 1;
+        if (segundos == 10) 
+        {
+            hora += 1;
+            print("Horário: " + hora);
+        }
+
+        if (hora == 24)
+        {
+            dias += 1;
+            hora = 0;
+            print("Dia " + dias);
+            print("Horário: " + hora);
+        }
     }
 }
