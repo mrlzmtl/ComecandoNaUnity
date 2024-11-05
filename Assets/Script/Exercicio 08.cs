@@ -15,7 +15,7 @@ public class Exercicio08 : MonoBehaviour
     void Update()
     {
         segundos += 1;
-        if (segundos == 10) 
+        if (segundos == 100) 
         {
             hora += 1;
             print("Horário: " + hora);

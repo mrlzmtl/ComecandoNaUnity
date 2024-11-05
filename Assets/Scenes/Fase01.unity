@@ -2241,6 +2241,8 @@ GameObject:
   - component: {fileID: 1975249705}
   - component: {fileID: 1975249708}
   - component: {fileID: 1975249709}
+  - component: {fileID: 1975249710}
+  - component: {fileID: 1975249711}
   m_Layer: 0
   m_Name: pumpkin_dude_idle_anim_f0
   m_TagString: Untagged
@@ -2389,13 +2391,45 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975249704}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28efe70303a70ad4391b9a39bf41d072, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cbdc500d65fedd42b47a99421b65756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeA: 3
-  timeB: 3
+  moedas: 1
+  pocoes: 0
+  powerUp: 1
+  moedasBolso: 10
+  vidaPlayer: 20
+  efeitos: 3
+--- !u!114 &1975249710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975249704}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8395d633250720b4ea83cd606bb127fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estadoPlayer: Normal
+--- !u!114 &1975249711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975249704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad15c87b53ad4b14a8effa568b8ef99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hora: 20
+  segundos: 1
+  dias: 1
 --- !u!1 &2037386177
 GameObject:
   m_ObjectHideFlags: 0
