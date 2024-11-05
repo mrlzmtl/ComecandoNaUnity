@@ -37,7 +37,8 @@ public class Exercicio10 : MonoBehaviour
             break;
 
             default:
-                break;
+                print("Nada coletado");
+            break;
         }
     }
 
