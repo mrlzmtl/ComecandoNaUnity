@@ -2240,8 +2240,7 @@ GameObject:
   - component: {fileID: 1975249706}
   - component: {fileID: 1975249705}
   - component: {fileID: 1975249708}
-  - component: {fileID: 1975249710}
-  - component: {fileID: 1975249711}
+  - component: {fileID: 1975249709}
   m_Layer: 0
   m_Name: pumpkin_dude_idle_anim_f0
   m_TagString: Untagged
@@ -2383,7 +2382,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.000064373016, y: -0.061513767}
   m_Size: {x: 0.8750496, y: 1.0648849}
   m_Direction: 0
---- !u!114 &1975249710
+--- !u!114 &1975249709
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2392,24 +2391,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1975249704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c0de9da07bb5a84ab18927886b7ea21, type: 3}
+  m_Script: {fileID: 11500000, guid: 28efe70303a70ad4391b9a39bf41d072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaJogador: 20
-  dano: 10
---- !u!114 &1975249711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975249704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5274f9e0efaa1784ea984732a7433cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUP: 0
+  timeA: 3
+  timeB: 3
 --- !u!1 &2037386177
 GameObject:
   m_ObjectHideFlags: 0
