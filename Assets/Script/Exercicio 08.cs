@@ -4,8 +4,8 @@ public class Exercicio08 : MonoBehaviour
 {
 
     [SerializeField] int hora = 20;
-    int segundos = 1;
-    int dias = 1;
+    [SerializeField] int segundos = 1;
+    [SerializeField] int dias = 1;
     void Start()
     {
         
@@ -19,6 +19,7 @@ public class Exercicio08 : MonoBehaviour
         {
             hora += 1;
             print("Horário: " + hora);
+            segundos = 0;
         }
 
         if (hora == 24)
