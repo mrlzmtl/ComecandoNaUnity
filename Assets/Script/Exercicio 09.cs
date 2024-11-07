@@ -16,7 +16,7 @@ public class Exercicio09 : MonoBehaviour
         {
             print("Vitória do time B");
         }
-        else if (timeA == 3 && timeB == 3)
+        else if (timeA >= 3 && timeB >= 3)
         {
             print("Empate emocionante");
         }
