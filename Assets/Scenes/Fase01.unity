@@ -2243,6 +2243,7 @@ GameObject:
   - component: {fileID: 1975249709}
   - component: {fileID: 1975249710}
   - component: {fileID: 1975249711}
+  - component: {fileID: 1975249712}
   m_Layer: 0
   m_Name: pumpkin_dude_idle_anim_f0
   m_TagString: Untagged
@@ -2427,9 +2428,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad15c87b53ad4b14a8effa568b8ef99e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hora: 20
-  segundos: 1
   dias: 1
+  segundos: 1
+  horas: 0
+--- !u!114 &1975249712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975249704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a792e7e4e38459d48a193edc8af8af11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2037386177
 GameObject:
   m_ObjectHideFlags: 0
