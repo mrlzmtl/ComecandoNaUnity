@@ -20,13 +20,9 @@ public class Desafio2 : MonoBehaviour
         print("Idade: " + ano + "anos, " + mes + " meses, " + dia + " dias.");
     }
 
-    
+
     void Update()
     {
-        foreach (var item in transform)
-        {
-            
-        }
-
+        
     }
 }

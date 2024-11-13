@@ -4,7 +4,7 @@ using UnityEngine;
 public class Exercicio8 : MonoBehaviour
 {
     string programa;
-    string nome = "Amalia";
+    [SerializeField]string nome = "Amalia";
     void Start()
     {
         for (int i = nome.Length; i > 0; i--)
@@ -14,7 +14,7 @@ public class Exercicio8 : MonoBehaviour
         print(programa);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         

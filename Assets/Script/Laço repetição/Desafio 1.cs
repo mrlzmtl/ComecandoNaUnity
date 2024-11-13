@@ -19,7 +19,7 @@ public class Desafio1 : MonoBehaviour
         print("Consoantes: " + consoantes);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
